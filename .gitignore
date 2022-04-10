@@ -34,5 +34,5 @@ yarn-error.log*
 .vercel
 
 # Some folders that are heavy
-apps-hack-proof/**
-hack-proof-videos-after-effects/**
+apps-hack-proof/
+hack-proof-videos-after-effects/
