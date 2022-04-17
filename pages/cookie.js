@@ -28,7 +28,7 @@ export default function Home() {
 
             {section1 && 
                 <div className='w-full h-screen text-center justify-center py-16 bg-yellow-100'>
-                    <img src="https://i.imgur.com/z6aoXqA.jpg" className='mx-auto rounded-xl shadow-md w-2/5' alt="" />
+                    <img src="https://i.imgur.com/uv13oAj.jpg" className='mx-auto rounded-xl shadow-md w-2/5' alt="" />
                     <h1 className='text-2xl mt-10'>Cookie run Kingdom </h1>
                     <h1 className='text-blue-400 mt-10'>Choose the amount of crytals </h1>
                     <select type="text" className='text-center mx-auto my-5 rounded-md shadow w-5/6 py-2 border-b-2 border-gray-300'>
