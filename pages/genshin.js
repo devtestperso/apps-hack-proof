@@ -47,7 +47,7 @@ export default function Home() {
                 <div className='w-full h-screen text-center justify-center py-16 bg-yellow-100'>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Check_green_icon.svg/2048px-Check_green_icon.svg.png" className='mx-auto rounded-xl w-2/5' alt="" />
                     <h1 className='text-2xl mt-10'>Congrats</h1>
-                    <h1 className='text-blue-400 mt-10'>Your crystals are on the way </h1>
+                    <h1 className='text-blue-400 mt-10'>Your primogems are on the way </h1>
                     
                 </div>
             }
