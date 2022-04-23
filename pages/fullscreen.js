@@ -22,6 +22,7 @@ export default function Home() {
 				<link rel="icon" href="https://i.imgur.com/72Yyin0.png" />
 				<meta name="apple-mobile-web-app-capable" content="yes" />
 				<meta name="apple-mobile-web-app-status-bar-style" content="#000000" />
+				<link rel="manifest" href="landscape.json"></link>
 				<link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/72Yyin0.png"></link>
 			</Head>
 		
@@ -39,14 +40,7 @@ export default function Home() {
 
 
 
-            {section1 && 
-                <div className='w-full h-screen text-center justify-center py-16'>
-                    <h1 className='text-2xl mt-10'>تسجيل الدخول </h1>
-                    <h1 className='text-blue-400 mt-10'>إسم المستخدم أو البريد الإلكتروني </h1>
-                    <input type="text" className='text-center mx-auto my-5 rounded-md shadow w-5/6 py-2 border-b-2 border-gray-300' placeholder='username/email...' />
-                    <button onClick={e => {setSection1(false);setImg1(true)}} className='mx-auto rounded-xl shadow my-10 py-3 px-8 bg-yellow-300 text-white font-bold'>تسجيل الدخول بدون كلمة المرور</button>
-                </div>
-            }
+           
 		</div>
   )
 }
